@@ -5,13 +5,13 @@ ag-Grid VueJS Component Examples
 
 ``` bash
 # install dependencies
-npm install
+yarn install
 
-# build for dev 
-npm run start 
+# build for dev
+yarn run start
 
-# build for production 
-npm run build
+# build for production
+yarn run build
 ```
 
 ## Examples

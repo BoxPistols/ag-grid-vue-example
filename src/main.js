@@ -21,10 +21,10 @@ import routes from './routes';
 Vue.use(VueRouter);
 
 const router = new VueRouter({
-    routes
+  routes
 });
 
 new Vue({
-    router,
-    render: h => h(App)
+  router,
+  render: h => h(App)
 }).$mount('#app');

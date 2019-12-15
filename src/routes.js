@@ -1,6 +1,8 @@
 import RichGridExample from "./rich-grid-example/RichGridExample.vue";
 import LargeDataSetExample from "./large-data-set-example/LargeDataSetExample.vue";
 
+import DataTables from "./DataTables/select.vue";
+
 export default [{
     path: '/',
     components: {
@@ -12,5 +14,10 @@ export default [{
     path: '/large-data',
     component: LargeDataSetExample,
     name: "Large Data Example"
+  },
+  {
+    path: '/DataTables',
+    component: DataTables,
+    name: "DataTables"
   }
 ];
